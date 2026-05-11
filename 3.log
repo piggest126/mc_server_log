@@ -1,0 +1,161 @@
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:charger' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:inscriber' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:cell_workbench' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:molecular_assembler' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:crystal_resonance_generator' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:io_port' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:interface' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:vibration_chamber' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:sky_stone_chest' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:smooth_sky_stone_chest' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:drive' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:chest' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:energy_cell' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:dense_energy_cell' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:crafting_monitor' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:pattern_provider' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:crafting_unit' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:crafting_accelerator' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:sky_stone_tank' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ae2:growth_accelerator' in civil:civil_blocks/compat_ae2.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'create:flap_display' in civil:civil_blocks/compat_create.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:storage_controller' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:controller_extension' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:compacting_drawer' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:simple_compacting_drawer' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:armory_cabinet' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'functionalstorage:ender_drawer' in civil:civil_blocks/compat_functionalstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:iron_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:gold_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:diamond_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:copper_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:crystal_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'ironchest:obsidian_chest' in civil:civil_blocks/compat_ironchests.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'quark:crafter' in civil:civil_blocks/compat_quark.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:decoration_table' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:controller' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:storage_link' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:copper_barrel' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:iron_barrel' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:gold_barrel' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:diamond_barrel' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:netherite_barrel' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:copper_chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:iron_chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:gold_chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:diamond_chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown block 'sophisticatedstorage:netherite_chest' in civil:civil_blocks/compat_sophisticatedstorage.json, skipping
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:abandoned_tower' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:forbidden_castle' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:infernal_altar' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:nether_reactor' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:piglin_village' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:pipeline' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:quartz_kitchen' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:ruined_lab' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'incendium:sanctum' in civil:civil_zone_policies/incendium.json (rule=incendium_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'incendium_all' in civil:civil_zone_policies/incendium.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:abandoned_spire' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:abandoned_temple' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:abandoned_village' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:acropolis' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:amethyst_nest' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:ancient_factory' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:burning_arena' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:cursed_pyramid' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:desert_occupied_village' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:desert_site' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:desert_temple' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:frosted_prison' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:ruined_citadel' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:soul_black_smith' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'cataclysm:sunken_city' in civil:civil_zone_policies/l_enders_cataclysm.json (rule=cataclysm_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'cataclysm_all' in civil:civil_zone_policies/l_enders_cataclysm.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:naga_courtyard' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:lich_tower' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:labyrinth' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:hydra_lair' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:knight_stronghold' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:dark_tower' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:troll_cave' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:yeti_cave' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:aurora_palace' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:final_castle' in civil:civil_zone_policies/twilight_forest.json (rule=tf_boss_progression), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'tf_boss_progression' in civil:civil_zone_policies/twilight_forest.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:hedge_maze' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:giant_house' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:hollow_tree' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:large_hollow_hill' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:medium_hollow_hill' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:small_hollow_hill' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:mushroom_tower' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:swamp_hollow_tree' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'twilightforest:fallen_trunk' in civil:civil_zone_policies/twilight_forest.json (rule=tf_mazes_hollows), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'tf_mazes_hollows' in civil:civil_zone_policies/twilight_forest.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:abandoned_temple' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:aviary' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:bandit_towers' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:bandit_village' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:ceryneian_hind' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:coliseum' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:foundry' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:heavenly_challenger' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:heavenly_conqueror' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:heavenly_rider' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:illager_campsite' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:illager_corsair' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:illager_fort' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:illager_galley' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:illager_windmill' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:infested_temple' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:jungle_tree_house' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:mining_system' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:mushroom_house' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:mushroom_mines' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:plague_asylum' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:scorched_mines' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:shiraz_palace' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:small_blimp' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:thornborn_towers' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:typhon' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise:undead_pirate_ship' in civil:civil_zone_policies/when_dungeons_arise.json (rule=dungeons_arise_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'dungeons_arise_all' in civil:civil_zone_policies/when_dungeons_arise.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise_seven_seas:corsair_corvette' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json (rule=dungeons_arise_seven_seas_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise_seven_seas:pirate_junkship' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json (rule=dungeons_arise_seven_seas_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise_seven_seas:small_yacht' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json (rule=dungeons_arise_seven_seas_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise_seven_seas:unicorn_galleon' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json (rule=dungeons_arise_seven_seas_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'dungeons_arise_seven_seas:victory_frigate' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json (rule=dungeons_arise_seven_seas_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'dungeons_arise_seven_seas_all' in civil:civil_zone_policies/when_dungeons_arise_seven_seas.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdeserttemples:desert_temple' in civil:civil_zone_policies/yungs_better_desert_temples.json (rule=betterdeserttemples_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterdeserttemples_all' in civil:civil_zone_policies/yungs_better_desert_temples.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdungeons:skeleton_dungeon' in civil:civil_zone_policies/yungs_better_dungeons.json (rule=betterdungeons_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdungeons:small_dungeon' in civil:civil_zone_policies/yungs_better_dungeons.json (rule=betterdungeons_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdungeons:small_nether_dungeon' in civil:civil_zone_policies/yungs_better_dungeons.json (rule=betterdungeons_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdungeons:spider_dungeon' in civil:civil_zone_policies/yungs_better_dungeons.json (rule=betterdungeons_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterdungeons:zombie_dungeon' in civil:civil_zone_policies/yungs_better_dungeons.json (rule=betterdungeons_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterdungeons_all' in civil:civil_zone_policies/yungs_better_dungeons.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterjungletemples:jungle_temple' in civil:civil_zone_policies/yungs_better_jungle_temples.json (rule=betterjungletemples_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterjungletemples_all' in civil:civil_zone_policies/yungs_better_jungle_temples.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterfortresses:fortress' in civil:civil_zone_policies/yungs_better_nether_fortresses.json (rule=betterfortresses_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterfortresses_all' in civil:civil_zone_policies/yungs_better_nether_fortresses.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betteroceanmonuments:ocean_monument' in civil:civil_zone_policies/yungs_better_ocean_monuments.json (rule=betteroceanmonuments_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betteroceanmonuments_all' in civil:civil_zone_policies/yungs_better_ocean_monuments.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterstrongholds:stronghold' in civil:civil_zone_policies/yungs_better_strongholds.json (rule=betterstrongholds_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterstrongholds_all' in civil:civil_zone_policies/yungs_better_strongholds.json has no valid structures, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterwitchhuts:witch_circle' in civil:civil_zone_policies/yungs_better_witch_huts.json (rule=betterwitchhuts_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown structure 'betterwitchhuts:witch_hut' in civil:civil_zone_policies/yungs_better_witch_huts.json (rule=betterwitchhuts_all), skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Rule 'betterwitchhuts_all' in civil:civil_zone_policies/yungs_better_witch_huts.json has no valid structures, skipping
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'minecells:prison' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'minecells:promenade' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'minecells:insufferable_crypt' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'minecells:black_bridge' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'minecells:ramparts' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'dimdungeons:dungeon_dimension' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/WARN] [civil-registry/]: [civil-registry] Unknown dimension 'dimdungeons:build_dimension' in civil:civil_dimension_policies/defaults.json, skipping
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[19:47:14] [Server thread/ERROR] [io.wi.lm.LMFTCommon/]: [Load My F***ing Tags]: It seems that some tags are a bit cooked. Look at the Logs for more details on broken functions. 

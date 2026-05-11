@@ -1,0 +1,964 @@
+---
+type: mc_server_filtered_log
+source_file: "5.11.log"
+filter_time: "2026-05-12 00:59:44"
+content_hash: "0000000000000000000000000000000000000000000000000000000000000000"
+hash_algorithm: "SHA256"
+filter_version: "2.1"
+time_range_start: "12:37:46"
+time_range_end: "22:47:02"
+kept_lines: 952
+filtered_lines: 2079
+---
+[12:37:46] [main/INFO] [KubeJS Server/]: Added 5 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes taking 734 ms in total
+[12:37:47] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 7620 recipe advancements
+[12:37:47] [main/ERROR] [minecraft/AdvancementTree]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[12:37:47] [main/ERROR] [co.cr.in.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:dread_citadel
+java.lang.Exception: Error: iceandfire:dread_lich is not a valid entity ID!
+[12:37:47] [main/ERROR] [co.cr.in.IntegratedAPI/]: Integrated API Error: Couldn't parse spawner mob list idas:archmages_tower
+java.lang.Exception: Error: ars_nouveau:wilden_hunter is not a valid entity ID!
+[12:37:47] [main/INFO] [co.ma.on.Oneenoughitem/]: Server replacement cache rebuilt due to data reload: 0 entries loaded, 0 invalid
+[12:37:47] [main/INFO] [co.ma.on.Oneenoughitem/]: Disabled reload-override mapping: 25 entries
+[12:37:48] [main/INFO] [structurify/]: Disabled 1 structures: [idas:collectors_museum]
+[12:37:48] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[12:37:48] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[12:37:48] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: CREATIVE
+[12:37:48] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[12:37:48] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[12:37:48] [Server thread/INFO] [de.ry.sa.Sable/]: Adding UDP server channel future
+[12:37:48] [Netty Epoll Server IO #0/INFO] [de.ry.sa.Sable/]: Server UDP channel active
+[12:37:48] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[12:37:48] [Server thread/INFO] [FTB Teams/]: loaded team data: 4 known players, 4 teams total
+[12:37:48] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[12:37:48] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[12:37:48] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[12:37:48] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[12:37:48] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[12:37:48] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[12:37:48] [Server thread/INFO] [quark-zeta/]: Server starting, accepting filewatcher changes for quark's config
+[12:37:48] [Server thread/INFO] [Framework/]: Loading server configs...
+[12:37:48] [Server thread/INFO] [structurify/]: Updating registries...
+[12:37:48] [Server thread/INFO] [structurify/]: Structure registries updated
+[12:37:48] [Server thread/INFO] [structurify/]: Structure Sets registries updated
+[12:37:48] [Server thread/INFO] [structurify/]: Registries updated
+[12:37:48] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[12:37:49] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[12:37:49] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[12:37:49] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[12:37:49] [Server thread/INFO] [de.ry.sa.Sable/]: Assigned physics scene ID 0 to minecraft:overworld
+[12:37:49] [Server thread/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method readChunk in c2me-rewrites-chunk-system.mixins.json:async_serialization.MixinThreadedAnvilChunkStorage from mod c2me_rewrites_chunk_system cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[12:37:49] [Server thread/INFO] [TheSpeedyObjectFactory/]: Using TheSpeedyObjectFactory with Unsafe
+[12:37:50] [Server thread/INFO] [civil-heads/]: [civil-heads] Loaded 4510 mob head(s) from storage
+[12:37:50] [Server thread/INFO] [civil-farm-shrine/]: [civil-farm-shrine] Loaded 0 farm shrine(s) from storage
+[12:37:50] [Server thread/INFO] [civil-undying-anchor/]: [civil-undying-anchor] Loaded 0 undying anchor(s) from database
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamy_corn_drink is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:cornbread_stuffing is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:corn_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamed_corn is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:nachos_bowl is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:grilled_corn is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:classic_corn_dog is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:taco is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:apple_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup_creamy is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_honey_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:mac_and_cheese is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_rice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_apples is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_and_bacon_cheesy is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peperonata is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_chicken is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_mushroom_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_casserole is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_honey_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_jelly_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_jelly_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:grilled_cheese is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_goat_cheese_toast is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:chocolate_cookie is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sugar_cookie is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:snickerdoodle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_cobbler_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:honeyed_goat_cheese_tart_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_milkshake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_milkshake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_latte is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:ender_nectar is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:berry_matcha_latte is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_ice_cream is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_ice_cream is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_chili is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:sinigang is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:field_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:stuffed_cantaloupe is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:smore is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cheeseburger is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:deluxe_cheeseburger is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:nut_butter_and_jelly_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cooked_marshmallow_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_popsicle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_bread is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:wrapped_cantaloupe is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_pie_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:pumpkin_pie_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_ice_cream is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_milk_shake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_fried_rice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_pie_side is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_cake_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:braised_sea_pickle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:seagrass_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:squid_rings is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:bowl_of_guardian_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:baked_tentacle_on_a_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:honey_fried_kelp is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:cooked_stuffed_cod is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:acacia_blossom_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:maggot_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:lobster_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bunfungus_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bison_burger is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:gongylidia_bruschetta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:creamed_corn is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_parmesan is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:hearty_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:spicy_curry is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fried_eggplant_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:poached_eggplants is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:elote is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:empanada is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:beef_burrito is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:mutton_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_burger is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:avocado_toast is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_taco is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pork_wrap is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fish_taco is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:rice_ball is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:cut_pickle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:sweet_berry_custard is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pufferfish_broth is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:rice_pudding is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:potato_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:red_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:tomato_egg_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:cod_deluxe is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:hearty_lunch is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:chicken_curry is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pasta_with_mushroom_sauce is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:omurice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:mushroom_pot_pie is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:roasted_mutton_rack is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:christmas_tea is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:salmon_verrines is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:festive_chiken is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:creamy_onion_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:scarlet_pierogi is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:horror_lasagna is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:cheesy_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:vegetable_omelet is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:fiery_fondue is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:ham_and_cheese_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:quiche_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:poor_fisher_chowder is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:jellyfish_jelly is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:unusual_fish_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:bass_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_chorba is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_and_chips is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halaszle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:crispy_nori_kelp is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:baked_pollock_with_carrots is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:large_fish_with_vegetables is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:rollmops is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:tuna_spaghetti is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halibut_with_tartar_sauce is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:buckling is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:turtle_meat_dish is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:catfish_barbecue is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:raw_fish_fillet_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fried_perch_roll is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_juice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveil_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveiled_curry is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:twisted_cereal is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:endermite_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:ender_paella is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chicken_curry is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:steak_fries is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:veil_of_flames_risotto is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:pearl_pasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:stuffed_shulker_bowl is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:uncanny_cookies is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crispy_skewer is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:strange_eclair is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crawling_sandwich is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_pie_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_milk_tea is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_wine is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:bubble_tea is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_soda is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_tea is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_and_chorus_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:shulker_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_noodle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:enderman_gristle_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_congee is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_mixed_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:assorted_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stir_fried_shulker_meat is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:roasted_dragon_steak is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:grilled_shulker is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_meat_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:steamed_dragon_egg is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_leg_with_sauce is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stuffed_rice_cake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_pie is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_bamboo_rice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_popsicle is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_barbecue_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_pie_slice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:kelp_shake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_pudding is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_milk is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:seafood_gumbo is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_fried_rice is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coral_crunch is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_chowder is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:bisque is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_bake is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:surf_and_turf is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:frog_leg_kebab is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:squid_kebab is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_skewer is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:fish_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:stuffed_nautilus_shell is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sizzling_pudding is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:rock_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_noodle_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:ghast_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:dried_ghast_with_milk is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sausage_and_potatoes is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_hoglin_stew is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:egg_soup is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:breakfast_sampler is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fried_hoglin_chop is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:twisted_ghasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_with_grilled_fungus is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:scotch_eggs is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:giant_takoyaki is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:blue_tenderloin_steak is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:crimson_stroganoff is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_curry is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bleeding_tartar is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hot_wings is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_ghasta_with_cream is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_snout is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_ham is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_cold_striderloaf is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_striderloaf is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:stuffed_pepper is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_mixed_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_nether_salad is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:chilidog is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_cotton is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fries_ghasta is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bacon-wrapped_sausage_on_a_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_skewer is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:red_loin_on_a_stick is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:nether_burger is not found from registry
+[12:37:50] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:magma_cake_slice is not found from registry
+[12:37:50] [Server thread/INFO] [de.ry.sa.Sable/]: Assigned physics scene ID 1 to minecraft:the_nether
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamy_corn_drink is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:cornbread_stuffing is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:corn_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamed_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:nachos_bowl is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:grilled_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:classic_corn_dog is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:apple_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup_creamy is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_honey_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:mac_and_cheese is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_apples is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_and_bacon_cheesy is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peperonata is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_chicken is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_mushroom_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_casserole is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_honey_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:grilled_cheese is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_goat_cheese_toast is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:chocolate_cookie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sugar_cookie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:snickerdoodle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_cobbler_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:honeyed_goat_cheese_tart_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_milkshake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_milkshake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_latte is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:ender_nectar is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:berry_matcha_latte is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_chili is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:sinigang is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:field_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:stuffed_cantaloupe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:smore is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cheeseburger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:deluxe_cheeseburger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:nut_butter_and_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cooked_marshmallow_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_popsicle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_bread is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:wrapped_cantaloupe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:pumpkin_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_milk_shake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_fried_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_pie_side is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_cake_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:braised_sea_pickle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:seagrass_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:squid_rings is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:bowl_of_guardian_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:baked_tentacle_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:honey_fried_kelp is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:cooked_stuffed_cod is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:acacia_blossom_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:maggot_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:lobster_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bunfungus_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bison_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:gongylidia_bruschetta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:creamed_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_parmesan is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:hearty_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:spicy_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fried_eggplant_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:poached_eggplants is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:elote is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:empanada is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:beef_burrito is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:mutton_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:avocado_toast is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pork_wrap is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fish_taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:rice_ball is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:cut_pickle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:sweet_berry_custard is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pufferfish_broth is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:rice_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:potato_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:red_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:tomato_egg_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:cod_deluxe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:hearty_lunch is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:chicken_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pasta_with_mushroom_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:omurice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:mushroom_pot_pie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:roasted_mutton_rack is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:christmas_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:salmon_verrines is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:festive_chiken is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:creamy_onion_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:scarlet_pierogi is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:horror_lasagna is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:cheesy_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:vegetable_omelet is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:fiery_fondue is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:ham_and_cheese_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:quiche_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:poor_fisher_chowder is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:jellyfish_jelly is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:unusual_fish_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:bass_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_chorba is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_and_chips is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halaszle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:crispy_nori_kelp is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:baked_pollock_with_carrots is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:large_fish_with_vegetables is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:rollmops is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:tuna_spaghetti is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halibut_with_tartar_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:buckling is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:turtle_meat_dish is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:catfish_barbecue is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:raw_fish_fillet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fried_perch_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveil_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveiled_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:twisted_cereal is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:endermite_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:ender_paella is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chicken_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:steak_fries is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:veil_of_flames_risotto is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:pearl_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:stuffed_shulker_bowl is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:uncanny_cookies is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crispy_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:strange_eclair is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crawling_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_milk_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_wine is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:bubble_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_soda is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_and_chorus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:shulker_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_noodle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:enderman_gristle_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_congee is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_mixed_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:assorted_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stir_fried_shulker_meat is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:roasted_dragon_steak is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:grilled_shulker is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_meat_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:steamed_dragon_egg is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_leg_with_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stuffed_rice_cake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_pie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_bamboo_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_popsicle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_barbecue_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:kelp_shake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_milk is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:seafood_gumbo is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_fried_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coral_crunch is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_chowder is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:bisque is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_bake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:surf_and_turf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:frog_leg_kebab is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:squid_kebab is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:fish_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:stuffed_nautilus_shell is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sizzling_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:rock_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_noodle_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:ghast_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:dried_ghast_with_milk is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sausage_and_potatoes is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_hoglin_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:egg_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:breakfast_sampler is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fried_hoglin_chop is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:twisted_ghasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_with_grilled_fungus is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:scotch_eggs is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:giant_takoyaki is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:blue_tenderloin_steak is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:crimson_stroganoff is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bleeding_tartar is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hot_wings is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_ghasta_with_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_snout is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_ham is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_cold_striderloaf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_striderloaf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:stuffed_pepper is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_mixed_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_nether_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:chilidog is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_cotton is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fries_ghasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bacon-wrapped_sausage_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:red_loin_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:nether_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:magma_cake_slice is not found from registry
+[12:37:51] [Server thread/INFO] [de.ry.sa.Sable/]: Assigned physics scene ID 2 to minecraft:the_end
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamy_corn_drink is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:cornbread_stuffing is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:corn_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:creamed_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:nachos_bowl is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:grilled_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:classic_corn_dog is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: corn_delight:taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:apple_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_soup_creamy is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_honey_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:mac_and_cheese is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cinnamon_apples is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_and_bacon_cheesy is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peperonata is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_chicken is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:asparagus_mushroom_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_potato_casserole is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:peanut_butter_honey_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_berry_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:grilled_cheese is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_goat_cheese_toast is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:chocolate_cookie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sugar_cookie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:snickerdoodle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cranberry_cobbler_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:honeyed_goat_cheese_tart_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:cheese_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: expandeddelight:glow_berry_sweet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_milkshake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_milkshake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_latte is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:ender_nectar is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:berry_matcha_latte is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:matcha_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_chili is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:sinigang is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cactus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:field_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:stuffed_cantaloupe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:smore is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cheeseburger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:deluxe_cheeseburger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:nut_butter_and_jelly_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cooked_marshmallow_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_popsicle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:cantaloupe_bread is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:wrapped_cantaloupe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:salmonberry_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: delightful:pumpkin_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_ice_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_milk_shake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_fried_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_pie_side is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: pineapple_delight:pineapple_cake_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:braised_sea_pickle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:seagrass_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:squid_rings is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:bowl_of_guardian_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:baked_tentacle_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:honey_fried_kelp is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:cooked_stuffed_cod is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:elder_guardian_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: oceansdelight:fugu_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:acacia_blossom_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:maggot_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:lobster_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:kangaroo_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bunfungus_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:bison_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: alexsdelight:gongylidia_bruschetta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:creamed_corn is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_parmesan is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:hearty_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:spicy_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fried_eggplant_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:poached_eggplants is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:elote is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:empanada is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:beef_burrito is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:mutton_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:eggplant_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:avocado_toast is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pork_wrap is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:fish_taco is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:rice_ball is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:chicken_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:midori_roll_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:pufferfish_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:tropical_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:egg_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:calamari_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: culturaldelights:cut_pickle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:sweet_berry_custard is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pufferfish_broth is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:rice_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:potato_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:red_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:tomato_egg_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:cod_deluxe is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:hearty_lunch is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:chicken_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:pasta_with_mushroom_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:omurice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:mushroom_pot_pie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: large_meals:roasted_mutton_rack is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:christmas_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:salmon_verrines is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: festive_delight:festive_chiken is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:creamy_onion_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:scarlet_pierogi is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:horror_lasagna is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:cheesy_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:vegetable_omelet is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:fiery_fondue is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:ham_and_cheese_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: brewinandchewin:quiche_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:poor_fisher_chowder is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:jellyfish_jelly is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:unusual_fish_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:bass_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_chorba is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fish_and_chips is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halaszle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:crispy_nori_kelp is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:baked_pollock_with_carrots is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:large_fish_with_vegetables is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:rollmops is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:tuna_spaghetti is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:halibut_with_tartar_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:buckling is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:turtle_meat_dish is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:catfish_barbecue is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:raw_fish_fillet_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: aquaculturedelight:fried_perch_roll is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_juice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveil_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:amberveiled_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:twisted_cereal is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:endermite_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:ender_paella is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chicken_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:steak_fries is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:veil_of_flames_risotto is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:pearl_pasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:stuffed_shulker_bowl is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:uncanny_cookies is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crispy_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:strange_eclair is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:crawling_sandwich is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: endersdelight:chorus_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_milk_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_wine is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:bubble_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_soda is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_tea is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_breath_and_chorus_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:shulker_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_noodle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:enderman_gristle_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_congee is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_mixed_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:assorted_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stir_fried_shulker_meat is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:roasted_dragon_steak is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:grilled_shulker is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_meat_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:steamed_dragon_egg is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:dragon_leg_with_sauce is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:stuffed_rice_cake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_flower_pie is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:ender_bamboo_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_popsicle is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:end_barbecue_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: ends_delight:chorus_fruit_pie_slice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:kelp_shake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coconut_milk is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:seafood_gumbo is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_fried_rice is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:coral_crunch is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_chowder is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:bisque is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:clam_bake is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:surf_and_turf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:frog_leg_kebab is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:squid_kebab is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:shrimp_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:fish_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: crabbersdelight:stuffed_nautilus_shell is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sizzling_pudding is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:rock_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_noodle_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:ghast_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:dried_ghast_with_milk is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:sausage_and_potatoes is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_hoglin_stew is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:egg_soup is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:breakfast_sampler is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fried_hoglin_chop is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:twisted_ghasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:strider_with_grilled_fungus is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:scotch_eggs is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:giant_takoyaki is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:blue_tenderloin_steak is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:crimson_stroganoff is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_curry is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bleeding_tartar is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hot_wings is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_ghasta_with_cream is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_snout is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin_ham is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_stuffed_hoglin is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_cold_striderloaf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:plate_of_striderloaf is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:stuffed_pepper is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_mixed_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:hotdog_with_nether_salad is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:chilidog is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_cotton is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:fries_ghasta is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:bacon-wrapped_sausage_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:spicy_skewer is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:red_loin_on_a_stick is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:nether_burger is not found from registry
+[12:37:51] [Server thread/WARN] [co.jk.di.DisplayDelight/]: mynethersdelight:magma_cake_slice is not found from registry
+[12:37:51] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[12:37:51] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[12:37:52] [c2me-worker-0/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:52] [c2me-worker-2/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:52] [c2me-worker-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:54] [c2me-worker-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:54] [c2me-worker-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:54] [c2me-worker-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:54] [c2me-worker-4/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:56] [minecraft_overworld - Light/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:56] [minecraft_overworld - Light/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:56] [minecraft_overworld - Light/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[12:37:56] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 4820 ms
+[12:37:56] [Server thread/INFO] [minecraft/DedicatedServer]: Done (7.711s)! For help, type "help"
+[12:37:56] [Server thread/WARN] [minecraft/PathPackResources]: Non [a-z0-9_.-] character in namespace LICENSE in pack , ignoring
+[12:37:56] [Server thread/WARN] [minecraft/PathPackResources]: Non [a-z0-9_.-] character in namespace LICENSE in pack , ignoring
+[12:37:56] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12:37:56] [Server thread/INFO] [xa.hu.mi.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[12:37:56] [Server thread/INFO] [xa.ma.WorldMap/]: Registered synced player tracker system: ftb_teams
+[12:37:56] [Server thread/INFO] [co.wi.be.BeyondDimensions/]: 维度网络初始化完成(服务端)
+[12:37:56] [Server thread/INFO] [co.ti.cr.create_enchantment_industry_plus/]: create_enchantment_industry_plus is starting up on the server side!
+[12:37:56] [Server thread/INFO] [co.jk.di.DisplayDelight/]: HELLO from server starting
+[12:37:56] [Server thread/INFO] [FTB Quests/]: Loading quests from /home/piggest/下载/你好新蒸程1.2.0-Server-服务端/config/ftbquests/quests
+[12:37:56] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[12:37:56] [Server thread/INFO] [FTB Quests/]: Loaded 4 chapter groups, 21 chapters, 275 quests, 0 reward tables
+[12:37:56] [Server thread/INFO] [Hole Filler Mod/]: Server has enabled the nuke for all players.
+[12:37:56] [Server thread/INFO] [ne.pi.cr.CreateLazyTick/]: [CreateLazyTick] clearing cache...
+[12:37:56] [Server thread/INFO] [de.ry.sa.Sable/]: Assigned physics scene ID 3 to minecraft:server_faucet_test_level
+[12:37:56] [Server thread/WARN] [biolith/]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_faucet_test_level' in favor of 'minecraft:overworld'
+[12:37:56] [C2ME Storage #12/INFO] [C2ME Storage/]: Storage thread Thread[#158,C2ME Storage #12,8,SERVER] stopped
+[12:37:56] [C2ME Storage #11/INFO] [C2ME Storage/]: Storage thread Thread[#157,C2ME Storage #11,8,SERVER] stopped
+[12:37:56] [C2ME Storage #10/INFO] [C2ME Storage/]: Storage thread Thread[#156,C2ME Storage #10,8,SERVER] stopped
+[12:37:56] [Server thread/INFO] [de.ry.sa.Sable/]: Assigned physics scene ID 4 to minecraft:server_projectile_test_level
+[12:37:57] [Server thread/WARN] [biolith/]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_projectile_test_level' in favor of 'minecraft:overworld'
+[12:37:58] [Server thread/INFO] [Railways/]: [Dev] Creative tab railways:main will display 55 entries
+[12:37:58] [Server thread/INFO] [Railways/]: [Dev] Creative tab railways:tracks will display 209 entries
+[12:37:58] [Server thread/INFO] [Railways/]: [Dev] Creative tab railways:palettes will display 238 entries
+[12:37:59] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[12:37:59] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 creategoggles:diamond_backtank, missing knowledge for {1 minecraft:diamond_chestplate=1.0}
+[12:37:59] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 creategoggles:chainmail_backtank, missing knowledge for {1 minecraft:chainmail_chestplate=1.0}
+[12:37:59] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 creategoggles:leather_backtank, missing knowledge for {1 minecraft:leather_chestplate=1.0}
+[12:37:59] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 40 milliseconds
+[12:37:59] [Server thread/WARN] [ModernFix/]: Dedicated server took 41.945 seconds to load
+[12:42:46] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[12:52:49] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[13:12:50] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[13:52:51] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[15:12:52] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[17:08:40] [Server thread/INFO] [minecraft/PlayerList]: Xuanyuan_14_[/127.0.0.1:39714] logged in with entity id 39 at (557.7625162839793, 105.45100767360337, 908.9120289172838)
+[17:08:40] [Server thread/INFO] [de.ry.sa.Sable/]: Beginning attempted authentication with player Xuanyuan_14_
+[17:08:40] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[17:08:40] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[17:08:40] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[17:08:40] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[17:08:40] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[17:08:40] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ joined the game
+[17:08:41] [Server thread/INFO] [de.me.si.SimpleBackups/]: Backup done.
+[17:09:31] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 1000]
+[17:20:11] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ was killed
+[17:20:11] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Killed Xuanyuan_14_]
+[17:20:27] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 1000]
+[17:25:29] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ has made the advancement [In Thrust We Trust]
+[17:34:56] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ lost connection: Disconnected
+[17:34:56] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ left the game
+[17:40:03] [Server thread/INFO] [minecraft/PlayerList]: Xuanyuan_14_[/127.0.0.1:35750] logged in with entity id 13166 at (466.50928707714235, 78.24322903637277, 1443.5140726010832)
+[17:40:03] [Server thread/INFO] [de.ry.sa.Sable/]: Beginning attempted authentication with player Xuanyuan_14_
+[17:40:03] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[17:40:03] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[17:40:03] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[17:40:03] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[17:40:03] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[17:40:03] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ joined the game
+[17:43:47] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Successfully filled 792 block(s)]
+[17:44:23] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Successfully filled 6800 block(s)]
+[17:45:05] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Successfully filled 10927 block(s)]
+[17:45:29] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Successfully filled 2515 block(s)]
+[17:52:53] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to 没有到主机的路由
+[17:55:13] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ has made the advancement [You Spin Me Right Round]
+[18:12:50] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ has made the advancement [Sweet Dreams]
+[18:13:42] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ lost connection: Disconnected
+[18:13:42] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ left the game
+[19:08:42] [Server thread/INFO] [de.me.si.SimpleBackups/]: Backup done.
+[19:47:14] [Server thread/INFO] [minecraft/PlayerList]: Xuanyuan_14_[/127.0.0.1:47756] logged in with entity id 24711 at (423.8407101601207, 73.14063853439507, 1394.4287178577956)
+[19:47:14] [Server thread/INFO] [de.ry.sa.Sable/]: Beginning attempted authentication with player Xuanyuan_14_
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[19:47:14] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[19:47:14] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ joined the game
+[20:04:59] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set own game mode to Survival Mode]
+[20:05:38] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set own game mode to Creative Mode]
+[20:07:58] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ has made the advancement [Diamonds!]
+[20:27:15] [Server thread/WARN] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ moved too quickly! 2.1338665921069833,-0.21239702816406236,-10.541033710553393
+[20:55:29] [Server thread/INFO] [de.ry.sa.Sable/]: Sub-level ServerSubLevel[name=null, global_plot=10000,10002] has an extreme Y coordinate range, removing
+[20:55:35] [Server thread/INFO] [de.ry.sa.Sable/]: Sub-level ServerSubLevel[name=null, global_plot=10000,10003] has an extreme Y coordinate range, removing
+[20:58:20] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ has made the advancement [Acquire Hardware]
+[21:08:42] [Server thread/INFO] [de.me.si.SimpleBackups/]: Backup done.
+[21:14:16] [Server thread/WARN] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ moved too quickly! -48.689739318024465,7.142335497907652,-48.27702986710801
+[21:49:02] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 18000]
+[21:53:04] [Server thread/WARN] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ moved too quickly! -0.407353546092736,-27.24113102277974,15.105565900727681
+[21:54:18] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 0]
+[21:54:25] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 22000]
+[21:58:39] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 32000]
+[21:58:44] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 23000]
+[21:59:04] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the weather to clear]
+[21:59:13] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the time to 20000]
+[22:16:28] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ lost connection: Timed out
+[22:16:28] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ left the game
+[22:16:28] [Server thread/WARN] [minecraft/Connection]: handleDisconnection() called twice
+[22:16:52] [Server thread/INFO] [minecraft/PlayerList]: Xuanyuan_14_[/127.0.0.1:39768] logged in with entity id 89064 at (651.3030252971657, 81.34490075478239, 822.0353436349317)
+[22:16:52] [Server thread/INFO] [de.ry.sa.Sable/]: Beginning attempted authentication with player Xuanyuan_14_
+[22:16:52] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[22:16:52] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[22:16:52] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[22:16:52] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[22:16:52] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[22:16:52] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ joined the game
+[22:21:38] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ lost connection: Timed out
+[22:21:38] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ left the game
+[22:23:36] [Server thread/INFO] [de.ry.sa.Sable/]: Player logged in with tracking point in non-loaded sub-level. Attempting to load.
+[22:23:36] [Server thread/INFO] [minecraft/PlayerList]: Xuanyuan_14_[/127.0.0.1:36488] logged in with entity id 92016 at (596.8536639095383, 68.38126881676556, 1638.8404463452043)
+[22:23:36] [Server thread/INFO] [de.ry.sa.Sable/]: Beginning attempted authentication with player Xuanyuan_14_
+[22:23:36] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 211 block weight(s) from datapack
+[22:23:36] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 5 head type(s) from datapack
+[22:23:36] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 1 zone policy rule(s) from datapack
+[22:23:36] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded 0 dimension polic(ies) from datapack
+[22:23:36] [Server thread/INFO] [civil-registry/]: [civil-registry] Loaded spawn gate entities: blacklist=0 whitelist=1
+[22:23:36] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ joined the game
+[22:32:15] [Server thread/INFO] [minecraft/MinecraftServer]: [Xuanyuan_14_: Set the weather to clear]
+[22:47:02] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Xuanyuan_14_ lost connection: Disconnected
+[22:47:02] [Server thread/INFO] [minecraft/MinecraftServer]: Xuanyuan_14_ left the game
